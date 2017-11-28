@@ -1,0 +1,230 @@
+{
+  "GET_TEST":
+  {
+    "callTime": "2017-11-02 11:14:27",
+    "error": "R200",
+    "errormessage": "调用成功",
+    "result":
+    {
+      "keyWords": [
+      {
+        "keyWord": "技术好",
+        "optionId": "100018"
+      },
+      {
+        "keyWord": "质量好",
+        "optionId": "100020"
+      },
+      {
+        "keyWord": "速度块",
+        "optionId": "100022"
+      }],
+      "titleName": "服务评价",
+      "commTemplateId": 100006
+    },
+    "token": ""
+  },
+  "ABOUT_US":
+  {
+    "params":
+    {
+      "orgId": "F01"
+    },
+    "callTime": "2017-11-02 11:14:27",
+    "status": 1,
+    "reason": "返回成功",
+    "result":
+    {
+      "artId": "101",
+      "title": "起床也能挣外快？",
+      "publishTime": "2017-11-01 11:14:27",
+      "author": "Fox Snower",
+      "adImageUrl": "http://img.jpg",
+      "content": "<p>各种宣传，各种介绍</p>",
+      "browseQty": 20031,
+      "praiseQty": 300,
+      "bottomImgUrl": "http://img.jpg"
+    }
+  },
+  "ART_OPERATE":
+  {
+    "params":
+    {
+      "orgId": "F01",
+      "artId": "101",
+      "artOperateType": "1or2"
+    },
+    "callTime": "2017-11-02 11:14:27",
+    "status": 1,
+    "reason": "返回成功",
+    "result":
+    {
+      "browseQty": "20032",
+      "praiseQty": "301"
+    }
+  },
+  "WAKE_UP_SERVICE":
+  {
+    "params":
+    {
+      "orgId": "F01"
+    },
+    "callTime": "2017-11-02 11:14:27",
+    "status": 1,
+    "reason": "返回成功",
+    "result":
+    {
+      "content": "<p>各种宣传，各种介绍</p>",
+      "isSignUp": 0,
+      "signUpNum": 4000,
+      "signUpGold": 4000,
+      "isNewUser": 0,
+      "goldExperience": 1,
+      "treasuryBalance": 20.14
+    }
+  },
+  "GET_GOLD_EXPERIENCE":
+  {
+    "params":
+    {
+      "orgId": "F01"
+    },
+    "callTime": "2017-11-02 11:14:27",
+    "status": 1,
+    "reason": "返回成功"
+  },
+  "SIGN_UP":
+  {
+    "params":
+    {
+      "orgId": "F01",
+      "type": "1",
+      "payment": "1"
+    },
+    "callTime": "2017-11-02 11:14:27",
+    "status": 1,
+    "reason": "返回成功",
+    "result":
+    {
+      "treasuryBalance": 19.14
+    }
+  },
+  "GRAB_GOLD":
+  {
+    "params":
+    {
+      "orgId": "F01",
+      "type": "1"
+    },
+    "callTime": "2017-11-02 11:14:27",
+    "status": 1,
+    "reason": "返回成功",
+    "result":
+    {
+      "grabGold": 3.21,
+      "treasuryBalance": 22.35
+    }
+  },
+  "GRAB_GOLD_DETAIL":
+  {
+    "params":
+    {
+      "orgId": "F01",
+      "type": "1",
+      "date": "2017-11-02",
+      "pageNum": 1,
+      "Num": 50
+    },
+    "callTime": "2017-11-02 11:14:27",
+    "status": 1,
+    "reason": "返回成功",
+    "result":
+    {
+      "signUpNum": 4000,
+      "signUpGold": 4000,
+      "grabGold": 3.21,
+      "redPacketNum": 2000,
+      "remainRedPacketNum": 0,
+      "grabTime": "5",
+      "detail": [
+      {
+        "fanImageUrl": "http://image.jpg",
+        "fanName": "妖精",
+        "grabTime": "2017-11-02 07:00:01",
+        "grabGold": 2.21,
+        "isGood": 0
+      },
+      {
+        "fanImageUrl": "http://image.jpg",
+        "fanName": "一枝梅",
+        "grabTime": "2017-11-02 07:00:01",
+        "grabGold": 1.21,
+        "isGood": 0
+      },
+      {
+        "fanImageUrl": "http://image.jpg",
+        "fanName": "妖精一枝梅",
+        "grabTime": "2017-11-02 07:00:01",
+        "grabGold": 3.21,
+        "isGood": 1
+      }]
+    }
+  },
+  "TREASURE":
+  {
+    "params":
+    {
+      "orgId": "F01"
+    },
+    "callTime": "2017-11-02 11:14:27",
+    "status": 1,
+    "reason": "返回成功",
+    "result":
+    {
+      "fanImageUrl": "http://image.jpg",
+      "fanName": "妖精一枝梅",
+      "totalGold": 4000,
+      "todayGold": 2.14,
+      "accruedGold": 5.16
+    }
+  },
+  "TREASURE_DETAIL":{
+    "params":
+    {
+      "orgId": "F01",
+      "type":"1",
+      "date":"2017-11"
+    },
+    "callTime": "2017-11-02 11:14:27",
+    "status": 1,
+    "reason": "返回成功",
+    "result":
+    {
+      "payment": 10,
+      "incoming": 20.65,
+      "detail": [{
+        "isSource":1,
+        "sourceOrDestination":"挣钱赚外快",
+        "time":"2017-11-02 07:00:00",
+        "gold":2.14
+      },
+      {
+        "isSource":0,
+        "sourceOrDestination":"挣钱赚外快",
+        "time":"2017-11-02 07:00:00",
+        "gold":1
+      }]
+    }
+  },
+  "CASH_ADVANCE":{
+    "params":
+    {
+      "orgId": "F01",
+      "cashAdvanceName":"唐光德",
+      "cashAdvanceGold":"10"
+    },
+    "callTime": "2017-11-02 11:14:27",
+    "status": 1,
+    "reason": "返回成功"
+  }
+}

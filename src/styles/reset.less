@@ -1,0 +1,99 @@
+/**
+ * 重置样式
+ */
+
+@import "./var";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color:transparent;
+  line-height: 1.6;
+  -webkit-overflow-scrolling: touch;
+}
+
+html,
+body {
+  font-size: 62.5%!important;
+  color: @normalColor!important;
+  font-family: @FontDefault!important;
+  background-color: @bodyColor!important;
+}
+
+img{
+  max-width: 100%;
+  width: 100%;
+}
+a img {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  -webkit-appearance: none;
+  .setTapColor();
+}
+
+
+
+/** env = windows **/
+
+input,
+select,
+textarea {
+  border: none;
+  font-size: @normalSize;
+  font-family: @FontDefault;
+  width: 100%;
+  -webkit-appearance: none;
+  &:focus {
+    outline: none;
+  }
+}
+button{
+  font-family: @FontDefault!important;
+}
+input[type="text"]:disabled {
+  background-color: #fff;
+}
+
+::-webkit-input-placeholder {
+  font-family: @FontDefault;
+  -webkit-appearance: none;
+}
+
+
+/*::-webkit-scrollbar {
+  display: none;
+  opacity: 0;
+}*/
+/*@media screen and (max-width: 320px) {
+    body {
+        font-size: 61.5%;
+    }
+}
+@media screen and (max-width: 375px) {
+    body {
+       font-size: 62.5%;
+    }
+}
+@media screen and (max-width: 414px) {
+    body {
+        font-size: 62.5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+       font-size: 62.5%;
+    }
+}*/

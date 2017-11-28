@@ -1,0 +1,151 @@
+/**
+ * 定义变量
+ */
+
+
+/**
+ * 字体
+ */
+
+@FontDefault: 'Microsoft Yahei';
+
+
+
+/***
+ * 颜色
+ */
+
+@themeColor: #14baff; //蓝色
+@bodyColor: #edeff1; //背景颜色
+@normalColor: #333;
+@lightColor: #666;
+@lighterColor: #999;
+@while: #fff;
+@warn: #E64340; //红色
+@arrowColor: #e2e2e2;
+@buttonBg: #f7f7f7; //白色
+@borderColor: #dddddd;
+@buttonborderColor: #bbb;
+
+
+
+
+/**
+ * 大小
+ */
+
+@superSize: 4rem;
+@hugeSize: 2rem;
+@littleSize: 1.4rem;
+@normalSize: 1.5rem;
+@tinySize: 1.2rem;
+
+
+
+
+/**
+   长度
+ */
+
+@normalWidth: 10rem;
+@longWidth: 10rem;
+
+
+
+
+/**
+     * 高度
+ */
+
+@normalHeight: 50px;
+@intervalHeight: 1.2rem;
+
+
+
+
+/**
+ * 一个像素
+ */
+
+.setTopLine(@c: @borderColor) {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1px solid @c;
+  color: @c;
+  transform-origin: 0 0;
+  transform: scaleY(0.5);
+}
+
+.setBottomLine(@c: @borderColor) {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  border-bottom: 1px solid @c;
+  color: @c;
+  transform-origin: 0 100%;
+  transform: scaleY(0.5);
+}
+
+.setLeftLine(@c: @borderColor) {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  bottom: 0;
+  border-left: 1px solid @c;
+  color: @c;
+  transform-origin: 0 0;
+  transform: scaleX(0.5);
+}
+
+.setRightLine(@c: @borderColor) {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  bottom: 0;
+  border-right: 1px solid @c;
+  color: @c;
+  transform-origin: 100% 0;
+  transform: scaleX(0.5);
+}
+
+
+
+
+/**
+ * 默认触摸样式
+ */
+
+.setTapColor(@c: rgba(0, 0, 0, 0)) {
+  -webkit-tap-highlight-color: @c;
+}
+
+
+
+/**
+ * 表单
+ */
+
+@FormBgColor: #fff;
+@FormPadding: 1.2rem;
+@FontPadding: 1.6rem;
+
+
+
+/**
+ * 百分比
+ */
+
+@allwidth: 100%;
+
+

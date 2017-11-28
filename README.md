@@ -36,6 +36,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## 目录详细说明
 
+```
   -config             配置跨域请求
   -server(本地服务)   专门提供本地服务，调取本地json数据
   	-local.json       本地数据
@@ -55,6 +56,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 		-utils            公共工具
 			-filter.js      公共过滤方法
 		-vuex             状态管理
+	```
 
 
 
